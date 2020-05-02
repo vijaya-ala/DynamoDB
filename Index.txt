@@ -1,0 +1,8 @@
+T2 micro instance
+apt-get install update
+sudo apt-get install python
+sudo apt-get install python-pip
+Pip install boto3
+sudo chown ubuntu:ubuntu  -R /opt
+
+Create IAM Role for DynamoDB to execute python files
